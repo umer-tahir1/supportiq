@@ -1,6 +1,6 @@
 # SupportIQ — One-Page Project Status
 
-**Status:** Final local verification passed on October 1, 2026. The frontend is deployed at https://supportiq-lime.vercel.app. GitHub publication and backend/database hosting remain pending account configuration; the hosted interface is not yet a functional full-stack deployment.
+**Status:** Final local verification passed on October 1, 2026. Source is published privately at https://github.com/umer-tahir1/supportiq, and the frontend is deployed at https://supportiq-lime.vercel.app. Backend/database hosting remains pending account configuration; the hosted interface is not yet a functional full-stack deployment.
 
 ## Completed
 
@@ -22,9 +22,8 @@
 
 ## Remaining
 
-1. Publish the source to GitHub after GitHub CLI authorization. The frontend is already deployed to the Vercel `supportiq` project.
-2. Configure a hosted Python backend and PostgreSQL database, provision trusted model artifacts, import historical records, and seed the administrator.
-3. Verify the deployed API, frontend routing, and browser-to-API connection.
+1. Configure a hosted Python backend and PostgreSQL database, provision trusted model artifacts, import historical records, and seed the administrator.
+2. Set the production `VITE_API_URL`, redeploy the frontend, and verify the deployed API and browser-to-API connection. The current homepage and admin login route both return HTTP 200.
 
 ## Final local verification — October 1, 2026
 

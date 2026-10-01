@@ -1,0 +1,15 @@
+.git
+.env
+**/.venv
+**/node_modules
+**/dist
+**/__pycache__
+**/.pytest_cache
+**/*.db
+**/*.db-*
+artifacts
+*.csv
+prompt.md
+backend/data/processed
+backend/saved_models
+frontend/test-results
